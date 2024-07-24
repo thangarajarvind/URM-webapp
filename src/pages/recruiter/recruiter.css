@@ -1,0 +1,81 @@
+/*
+Name: Thangaraj, Arvind
+UTA ID: 1002114888
+
+Referred following websites during development: www.w3schools.com, www.wpengine.com
+*/
+html{
+    overflow: scroll;
+    overflow-y: scroll;
+    
+}
+
+.recruiter_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 1rem 0;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: .5rem;
+    overflow: scroll;
+    overflow-y: scroll;
+    /* padding: 0 .5rem; */
+}
+
+.card h3{
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+input.approve[type=button] {
+    background-color: rgb(43, 185, 55);
+    margin-left: 20px;
+}
+input.reject[type=button] {
+    background-color: rgb(175, 35, 35);
+}
+
+.r_button{
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 190px;
+    width: 30%;
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow:0 0 20px 1px #1149797e;
+    background-color: #083054cd;
+    color: white;
+}
+
+input,textarea,select{
+    padding: 8px;
+    margin: 1px;
+    border: 0px;
+    border-radius: 3px;
+    box-shadow:0 0 20px 1px #1149797e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+tbody{
+    overflow:scroll;
+}
+::placeholder{
+    text-align: center;
+}
+
+th,td * {
+    text-align: center !important;
+}

@@ -1,0 +1,69 @@
+/*  Home Content CSS    */
+html{
+  overflow: scroll;
+}
+
+
+#content {
+  margin-left: 0%;
+  margin-right: 2%;
+  height:100vh;
+  background-color: #82bfed;
+  padding: 1%;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  position: relative;
+  
+  
+}
+
+/* Float four columns side by side */
+.cand_column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .cand_row {margin: 0 -5px;
+    overflow: auto;
+  }
+  
+  /* Clear floats after the columns */
+  .cand_row:after {
+    content: "";
+    display: table;
+    clear: both;
+    overflow: auto;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px)  {
+    #content{
+      margin-left: 0%;
+      margin-right: 2%;
+      overflow-x: scroll;
+    }
+
+    .cand_column {
+      width: 100%;
+      height: 100vh;
+      display: block;
+      margin-bottom: 20px;
+      color: white;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  

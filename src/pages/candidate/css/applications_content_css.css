@@ -1,0 +1,80 @@
+/* 
+Sawant,
+Omeya
+1001389358
+*/
+/*
+Multiple html, css and js components have been inspired from https://www.w3schools.com/ and https://www.tutorialspoint.com/
+*/
+
+/*Table CSS*/
+.savedtable {
+    border-radius:  10px;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    max-width: 100vh;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.savedtable thead tr {
+    background-color: #11101d;
+    color: #ffffff;
+    text-align: left;
+}
+.savedtable th,
+.savedtable td {
+    padding: 12px 15px;
+}
+.savedtable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+.savedtable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.savedtable tbody tr:last-of-type {
+    border-bottom: 2px solid #11101d;
+}
+.savedtable tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+/* Modal CSS*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

@@ -1,0 +1,13 @@
+export {default as RecruiterHomePage} from './HomePage';
+export {default as RecruiterLayoutPage} from './LayoutPage';
+export {default as RecruiterProfilePage} from './ProfilePage';
+export {default as RecruiterJobPostPage} from './JobPostPage';
+export {default as RecruiterSearchCandidatePage} from './SearchCandidate';
+export {default as RecruiterJobDescriptionPage} from './JobDescriptionPage';
+export {default as RecruiterJobNewPage} from './JobPostNew';
+export {default as RecruiterCandidateDetailPage} from './CandidateDetailsPage';
+export {default as RecruiterCandidateInterviewPage} from './CandidateInterview';
+export {default as RecruiterCandidateDetailsPage} from './CandidateDetailsPage';
+export {default as RecruiterApplicationStatusPage} from './ApplicationStatusPage';
+export {default as RecruiterApplicationStatusDetailsPage} from './ApplicationStatusDetailsPage';
+export {default as RecruiterCandidateSearchResultPage} from './CandidateSearchResultsPage';

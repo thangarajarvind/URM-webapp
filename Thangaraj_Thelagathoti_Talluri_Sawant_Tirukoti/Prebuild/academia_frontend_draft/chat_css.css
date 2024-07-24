@@ -1,0 +1,110 @@
+/* 
+Sawant,
+Omeya
+1001389358
+*/
+/*
+Multiple html, css and js components have been inspired from https://www.w3schools.com/ and https://www.tutorialspoint.com/
+*/
+
+/*  Home Content CSS    */
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: grey;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px)  {
+    .column {
+      width: 100%;
+      height: 100vh;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  /*
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+*/
+  /*New Chat css*/
+
+
+  .card {
+    background-color: #ADD8E6;
+  }
+
+  .container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #11101d;
+    color: white;
+    resize: none;
+    min-height: 200px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container input.id[type="text"] {
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #11101d;
+    color: white;
+    resize: none;
+    min-height: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+    padding: 0px;
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+  }
+  
+  /* When the textarea gets focus, do something */
+  .container textarea:focus,
+  .container input.id[type="text"]:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .container button {
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #04c880;
+    color: white;
+    padding: 16px 20px !important;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px !important;
+    opacity: 0.8;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+  }

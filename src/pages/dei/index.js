@@ -1,0 +1,10 @@
+export {default as DeiDashboardPage} from './DeiHomePage';
+export {default as DeiProfilePage} from './DeiProfilePage';
+export {default as DeiChatPage} from './DeiChatPage';
+export {default as DeiPagesLayout} from './DeiPagesLayout';
+export {default as DeiCandidateStatusPage} from './DeiCandidateStatusPage';
+export {default as DeiCandidatesPage} from './DeiCandidatesPage';
+export {default as DeiCreateJobPage} from './DeiCreateJobPage';
+export {default as DeiMatching} from './DeiMatching';
+export {default as DeiNotifications} from './DeiNotifications';
+export {default as DeiJobDescriptionPage} from './DeiJobDescriptionPage';

@@ -1,0 +1,100 @@
+<!-- Sawant,
+			Omeya
+			1001389358
+		 -->
+		<!-- Multiple html, css and js components have been inspired from https://www.w3schools.com/ and https://www.tutorialspoint.com/-->
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>URM Candidate Dashboard</title>
+		<link rel="stylesheet" href="dash_css.css">
+		<link rel="stylesheet" href="profile_content_css.css">
+		
+	</head>
+
+	
+
+	<body>
+	
+
+	<!-- Collapsed Side Bar -->	
+	<div id="mySidepanel" class="sidepanel">
+		<a href="dash_home.html">Home</a>
+		<a href="urm_chat.html">Messages</a>
+		<a href="dash_applications.html">Application</a>
+		<a href="dash_profile.html">Profile</a>
+	  <a href="dash_settings.html">Settings</a>
+	  </div>
+  
+	<!-- Navigation Bar -->	
+	<div class="topnav">
+		<button class="openbtn" onclick="openNav()">&#9776;</button>
+	 <!-- drop down profile-->   
+	 <div class="dropdown">
+		 <button class="dropbtn">M Gadaffi <img class="icons" src="icons/profile_icon.png">
+		 </button>
+		 <div class="dropdown-content">
+		   <a href="dash_profile.html">Profile</a>
+		   <a href="dash_settings.html">Settings</a>
+		   <a href="../HomePage/home.html">Log Out</a>
+		 </div>
+	   </div>
+	 <!-- drop down notifications-->
+	 <div class="dropdown">
+		 <button class="dropbtn"><img class="icons" src="icons/bell_icon.png">
+		 </button>
+		 <div class="dropdown-content">
+		   <a href="#">Mr A has scheduled an interview</a>
+		   <a href="#">Notification 2</a>
+		   <a href="#">Notification 3</a>
+		 </div>
+	 </div>
+	 <!-- drop down messages-->
+	 <div class="dropdown">
+		 <button class="dropbtn"><img class="icons" src="icons/message_icon.png">
+		 </button>
+		 <div class="dropdown-content">
+		   <a href="#">Recruiter A : "Hello, How are you doing today?"</a>
+		   <a href="#">Recruiter B : "I'm interested in your resume"</a>
+		   <a href="#">DEI C : "Bum Bum Bole"</a>
+		 </div>
+	 </div>
+	 <!-- Search Bar-->
+	 <input type="text" placeholder="Search Users..">
+ </div>
+	
+	<div id="content">
+		<h1>Settings</h1>
+		<hr>
+
+		<div class="row">
+			<div class="column">
+			  <h3>Change Login Details</h3>
+			  <hr>
+			  <div class="card">
+				<label for="email"><b>Email</b></label>
+    			<input type="text" placeholder="New Email" name="email" id="email" required>
+				<br>
+				<label for="con_email"><b>Confirm Email</b></label>
+				<input type="text" placeholder="Confirm Email" name="con_email" id="con_email" required>
+				<br>
+				<button type="button" class="email">Update Email</button>
+			  </div>
+
+			  <div class="card">
+				<label for="pass"><b>Password</b></label>
+    			<input type="text" placeholder="New Password" name="pass" id="pass" required>
+				<br>
+				<label for="con_pass"><b>Confirm Email</b></label>
+				<input type="text" placeholder="Confirm Password" name="con_pass" id="con_pass" required>
+				<br>
+				<button type="button" class="password">Update Password</button>
+			  </div>			  
+			</div>	
+		</div>
+    </div>
+
+	</body>
+</html>

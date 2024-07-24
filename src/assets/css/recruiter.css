@@ -1,0 +1,37 @@
+/*
+Name: Thangaraj, Arvind
+UTA ID: 1002114888
+
+Referred following websites during development: www.w3schools.com, www.wpengine.com
+*/
+
+.recruiter_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 1rem 0;
+}
+  
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: .5rem;
+    overflow: hidden;
+    /* padding: 0 .5rem; */
+}
+
+.card h3{
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+input.approve[type=button] {
+    background-color: rgb(43, 185, 55);
+}
+input.reject[type=button] {
+    background-color: rgb(175, 35, 35);
+}
+

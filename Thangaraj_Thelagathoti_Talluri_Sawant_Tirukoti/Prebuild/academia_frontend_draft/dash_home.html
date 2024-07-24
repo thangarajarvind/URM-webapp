@@ -1,0 +1,136 @@
+<!-- Sawant,
+			Omeya
+			1001389358
+		 -->
+		<!-- Multiple html, css and js components have been inspired from https://www.w3schools.com/ and https://www.tutorialspoint.com/-->
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>URM Candidate Dashboard</title>
+		<link rel="stylesheet" href="dash_css.css">
+		<link rel="stylesheet" href="Home_Content_CSS.css">
+		
+		
+	</head>
+
+	
+
+	<body>
+	
+	<!-- Collapsed Side Bar -->	
+	<div id="mySidepanel" class="sidepanel">
+  	<a href="dash_home.html">Home</a>
+  	<a href="urm_chat.html">Messages</a>
+  	<a href="dash_applications.html">Application</a>
+  	<a href="dash_profile.html">Profile</a>
+	<a href="dash_settings.html">Settings</a>
+	</div>
+
+	<!-- Navigation Bar -->	
+	<div class="topnav">
+   		<button class="openbtn" onclick="openNav()">&#9776;</button>
+		<!-- drop =down profile-->   
+		<div class="dropdown">
+			<button class="dropbtn">M Gadaffi <img class="icons" src="icons/profile_icon.png">
+			</button>
+			<div class="dropdown-content">
+			  <a href="dash_profile.html">Profile</a>
+			  <a href="dash_settings.html">Settings</a>
+			  <a href="../HomePage/home.html">Log Out</a>
+			</div>
+		  </div>
+		<!-- drop down notifications-->
+		<div class="dropdown">
+			<button class="dropbtn"><img class="icons" src="icons/bell_icon.png">
+			</button>
+			<div class="dropdown-content">
+			  <a href="#">Mr A has scheduled an interview</a>
+			  <a href="#">Notification 2</a>
+			  <a href="#">Notification 3</a>
+			</div>
+		</div>
+		<!-- drop down messages-->
+		<div class="dropdown">
+			<button class="dropbtn"><img class="icons" src="icons/message_icon.png">
+			</button>
+			<div class="dropdown-content">
+			  <a href="#">Recruiter A : "Hello, How are you doing today?"</a>
+			  <a href="#">Recruiter B : "I'm interested in your resume"</a>
+			  <a href="#">DEI C : "Bum Bum Bole"</a>
+			</div>
+		</div>
+		<!-- Search Bar-->
+		<input type="text" placeholder="Search Users..">
+	</div>
+	
+	<div id="content">
+		<h1>Candidate Dashboard</h1>
+		
+		<div class="row">
+			
+			<div class="column">
+			  <h2>Job Postings</h2>
+			  <hr>
+
+			  <div class="card">
+				<h3>Assistant Analyst</h3>
+				<h2>UTA</h2>
+				<button id="applyBtn">Apply</button>
+			  </div>
+
+			  <div class="card">
+				<h3>Research Assitant</h3>
+				<h2>UTD</h2>
+				<button id="applyBtn">Apply</button>
+			  </div>
+
+			  <div class="card">
+				<h3>Research Assitant</h3>
+				<h2>UCLA</h2>
+				<button id="applyBtn">Apply</button>
+			  </div>
+
+
+			</div>
+		  
+			<div class="column">
+			  <h2>On Progress</h2>
+			  <hr>
+			  <div class="card">
+				<h3>TA</h3>
+				<h2>UTA</h2>
+				<button id="viewBtn">View</button>
+			 </div>
+			</div>
+			
+			<div class="column">
+			  <h2>Done</h2>
+			  <hr>
+			  <div class="card">
+				<h3>TA</h3>
+				<h2>UTA</h2>
+				<button id="viewBtn">View</button>
+			  </div>
+			</div>
+			
+			
+		</div>
+    </div>
+
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+		<!-- Modal content -->
+		<div class="modal-content">
+		  	<span class="close">&times;</span>
+	  		<h2>UC San Diego</h2>
+			<h3>TA</h3>
+			<h3>Selected</h3>
+		</div>
+  	</div>
+
+	<!--There was a JS script here to trigger modal view-->
+	
+	</body>
+</html>

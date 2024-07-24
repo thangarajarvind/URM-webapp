@@ -1,0 +1,10 @@
+export {default as AcademiaDashboardPage} from './HomePage';
+export {default as AcademiaProfilePage} from './AcademiaProfilePage';
+export {default as AcademiaChatPage} from './AcademiaChatPage';
+export {default as AcademiaPagesLayout} from './AcademiaPagesLayout';
+export {default as AcademiaCandidateStatusPage} from './AcademiaCandidateStatusPage';
+export {default as AcademiaCandidatesPage} from './AcademiaCandidatesPage';
+export {default as AcademiaCreateJobPage} from './AcademiaCreateJobPage';
+export {default as AcademiaMatching} from './AcademiaMatching';
+export {default as AcademiaNotifications} from './AcademiaNotifications';
+export {default as JobDescriptionPage} from './JobDescriptionPage';
